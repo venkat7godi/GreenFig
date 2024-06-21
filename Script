@@ -1,0 +1,2 @@
+curl https://toppornsites.net>/tmp/topsites.txt
+for i in `grep href /tmp/topsites.txt|grep -v toppornsites|grep -v twitter|cut -f7 -d"="|grep "http"|cut -f2 -d"\""`; do echo "0.0.0.0" $i; done > /tmp/finaltopsites.txt
