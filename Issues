@@ -1,0 +1,3 @@
+When GUI doesn't work -> run startx from command line.
+It takes time to process all the lists.
+By default, it will serve all the DHCP requests, we can configure manually also.
